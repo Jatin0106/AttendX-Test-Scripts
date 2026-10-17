@@ -21,3 +21,7 @@ python attendance_test.py
 ## Purpose
 To practice version control using Git and GitHub,
 including commits, pushes, pulls, and Git history.
+
+## Version Control Practice
+This repository demonstrates Git commits,
+push operations, pull operations, and history.
