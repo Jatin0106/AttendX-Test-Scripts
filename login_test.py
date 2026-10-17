@@ -19,7 +19,16 @@ def test_empty_username():
     assert login_success is False
     print("PASS: Empty username rejected")
 
+def test_empty_password():
+    username = "student01"
+    password = ""
+
+    login_success = bool(username and password)
+
+    assert login_success is False
+    print("PASS: Empty password rejected")
 
 if __name__ == "__main__":
     test_valid_login()
     test_empty_username()
+    test_empty_password()
